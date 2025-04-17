@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulário Simples</title>
+  <link rel="stylesheet" href="css/estilo.css" />
+</head>
+<body>
+  <header>
+    <h1>Formulário de Contato</h1>
+  </header>
+
+  <main>
+    <section>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Informações Pessoais</legend>
+
+          <label for="nome">Nome Completo:</label>
+          <input type="text" id="nome" name="nome" required />
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" name="telefone" required />
+
+          <label for="data-nascimento">Data de Nascimento:</label>
+          <input type="date" id="data-nascimento" name="data-nascimento" required />
+
+          <p>Gênero:</p>
+          <label>
+            <input type="radio" name="genero" value="masculino" required />
+            Masculino
+          </label>
+          <label>
+            <input type="radio" name="genero" value="feminino" required />
+            Feminino
+          </label>
+          <label>
+            <input type="radio" name="genero" value="outro" required />
+            Outro
+          </label>
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" maxlength="200" required></textarea>
+        </fieldset>
+
+        <div>
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; FELIPÃO TECNOLOGIA - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
