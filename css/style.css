@@ -7,14 +7,16 @@
   
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f5f5f5;
+    background: radial-gradient(circle, #75faff, #ba25ff);
     color: #333;
     line-height: 1.6;
     padding: 20px;
   }
-  
+
+
   /* Cabeçalho e Rodapé */
   header, footer {
+    border-radius: 15px;
     text-align: center;
     padding: 20px 0;
     background-color: #ffffff;
@@ -40,6 +42,7 @@
   
   /* Formulário */
   form {
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     gap: 20px;
